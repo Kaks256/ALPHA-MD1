@@ -24,12 +24,12 @@
     },
     "AUTO_READ_MESSAGES": {
       "description": "Turn this 'on' if you want the bot to automatically read incoming messages. Use 'off' to disable it.",
-      "value": "yes",
+      "value": "off",
       "required": false
     },
     "BLOCK_ALL": {
       "description": "Turn this 'on' if you want the bot to automatically block ANYONE WHO SENDS YOU A MESSAGE. Use 'off' to disable it.",
-      "value": "yes",
+      "value": "off",
       "required": false  
     },
     "AUTO_DOWNLOAD_STATUS": {
@@ -44,7 +44,7 @@
     },
     "BOT_NAME": {
       "description": "put A name for your bot",
-      "value": "ALPHA-MD",
+      "value": "GOOGLE",
       "required": false
     },
     "BOT_MENU_LINKS": {
@@ -69,18 +69,18 @@
     },
     "SESSION_ID": {
       "description": "put your session ID , the code you receive after scanning Qr code",
-      "value": "",
+      "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiR05lSXlGRWhpL0d1Zy9UdElWSDFOc2xycERhOWtneHZ2Rzk0R21uNWRscz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoia013N25SVGloRTBrMEtJSzl1S09lNnA5MTZBUExwc1ExY0RkbENEUkMwZz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI0SXFFTEQ1THRYTDFFNStrb0o3SWlRU3lQcmp3amNONnN2emExNFFPR0hFPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPdUxiem1CY3hZSWpqelcwK3BrMnFKa0M4ekNKODlZZkJrK0Y3YTh0bGlZPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjRCOFdqMkN0NXBTSUUzdTUwaDVJNEh0Y0MvQjh6cHh6dCt4b2ZGQm5NVkk9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ikc3SkRtcHI5ajNZeUtqNXpicUM1Ykp5OHZWNmFlSDRld3RZRFhybWxSbk09In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWUFwY2VFazNEcHpGRm1Ma2RvTUtoQnVvZVVweS9YUkdaL29pMUcweHlsOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTzhCT2xZV3gvdFJ0Mm9ZYlFSWHhXc201S2orTitDS3ovTWpkUmk2NTVtRT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjZ6VVF1UTFzNUpsc1ZCWjZITW44ZTBZMFc0NjlxeStrbURROTA3eWJFR1Q5UXlaanZjQUZ3clZoU1lCOTBCVVNJUGJCV1hxSWxXMGg1UlZSUnBKY2h3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTUwLCJhZHZTZWNyZXRLZXkiOiJZdnM0anNwZHdsRi9vWWllcjlRZGRWczJKN3RTWUFHMFpta1VaTEhQaHNRPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJQNTNaa0JRcVR4V1J0SENnbDAzZkxnIiwicGhvbmVJZCI6ImQ5YTI5ZWJkLWQ2OGEtNDkyNC1iM2E5LWVhZmYxOWJkYjQ1NyIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJVNGVQSFVKYzNCekZRYnltaE1VeG4vcVpHRms9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoialVHWXFCVldKenRpemNKbjd5UEc3TG9yUTZ3PSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IlA5MTU4UktGIiwibWUiOnsiaWQiOiIyNTY3NDMzOTE1NjY6NjdAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ05tM3Zyc0VFSldHazdrR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6Ik45VFZiSC9EMFZOOE9EKzBEbkdlRU1DTC9GN0xrU3ZiYU1Hc3l5bnNRblE9IiwiYWNjb3VudFNpZ25hdHVyZSI6IndxOHlBczgxd3BxMXNyY1lQOEFBYUZ3bi9PcXdSVWttYWlHY1hzaDNCb2RUK1duMDJEbXJKNGhBemdjc3RpM2k0TCt6OU5kZU1rZzJBRHdaS3g5L0F3PT0iLCJkZXZpY2VTaWduYXR1cmUiOiJSaVduQU5IRGtWZ3dkYWJlaWM2Y1gvWWdHU29Nc3VzK2JtN1kvOUtTZXUwQWp2VUV3Qnd5ako2R2JmWStYeXFkY2w5L0dXcnZFZUJPVTN5MnV0eDZpUT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI1Njc0MzM5MTU2Njo2N0BzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJUZlUxV3gvdzlGVGZEZy90QTV4bmhEQWkveGV5NUVyMjJqQnJNc3A3RUowIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzMwNDYyNDk4fQ==",
       "required": true
     },
     "OWNER_NAME": {
       "desc": "Your Name",
       "required": false,
-      "value": "keithkeizzah"
+      "value": "google"
     },
     "NUMERO_OWNER": {
       "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
       "required": false,
-      "value": "254796299159"
+      "value": "256743391566"
     },
     "WARN_COUNT": {
       "desc": "this is the limit of warn for warning commandes",
@@ -99,7 +99,7 @@
     },
     "ANTI_DELETE_MESSAGE": {
       "description": "if you want to enable anti delete message put yes else put no",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "ANTICALL": {
@@ -109,7 +109,7 @@
     },
     "AUTO_REACTION": {
       "description": "Put yes if you want the bot to react to messages in private",
-      "required": false,
+      "required": yes,
       "value": "yes"
     }
   },
