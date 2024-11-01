@@ -7,7 +7,7 @@
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://telegra.ph/file/967c663a5978c545f78d6.jpg",
+  "logo": "https://files.catbox.moe/wgumif.jpg",
   "repository": "https://github.com/Keithkeizzah/ALPHA-MD1",
   "succes_url": "/",
   "stack": "container",
@@ -20,16 +20,16 @@
     "AUTO_READ_STATUS": {
       "description": "Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
       "value": "yes",
-      "required": false
+      "required": true
     },
     "AUTO_READ_MESSAGES": {
       "description": "Turn this 'on' if you want the bot to automatically read incoming messages. Use 'off' to disable it.",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "BLOCK_ALL": {
       "description": "Turn this 'on' if you want the bot to automatically block ANYONE WHO SENDS YOU A MESSAGE. Use 'off' to disable it.",
-      "value": "yes",
+      "value": "no",
       "required": false  
     },
     "AUTO_DOWNLOAD_STATUS": {
@@ -44,12 +44,12 @@
     },
     "BOT_NAME": {
       "description": "put A name for your bot",
-      "value": "ALPHA-MD",
+      "value": "GOOGLE-MD",
       "required": false
     },
     "BOT_MENU_LINKS": {
       "description": "add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"",
+      "value":"https://files.catbox.moe/wgumif.jpg",
       "required": false
     },
     "PUBLIC_MODE": {
@@ -69,18 +69,18 @@
     },
     "SESSION_ID": {
       "description": "put your session ID , the code you receive after scanning Qr code",
-      "value": "",
+      "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibUlCMHZKTzJwVHdFUDZadWt6cEZKRE5zWWhOaURNWVhtWXR6LzZKbkhIZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWU1GS2xxWkdTT3dMNGk5ZGpCYmNjWVpucEluRThZSE5qNDNqTzdrQnpCOD0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ1RGRYYnJRYTlUQis1WVFwbENnVzVnWHZIK2RnVjZ1Vy9PRU8zcExOUVdZPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJKZnlJcnFGazZHVWpwUk9BSXdpZ3FaT3pLWml1VWpGdVFsNXJlK0RSTW4wPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkFKcUkyZS9BZHUvZ25IZ1NJWXc5QXhZR0Y3UFlJb2FPQzNmUHpyRDFKa289In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImVLOFpVTVlxZmVTTVFhVmh5SFZCcG9GcmJGdWs5Wi93T3FEN1pBTGJjakU9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSUZsR2RIUlVOMnFFbTJHZ09DbG9TVUtnb1ZzRGZjU0NtMjlPZVh6Ri9VZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiS21QMzFKTkRIamRLN0JoSGY3eURCdGlZSUFJWVo2OWF4U0V1MEU3QWRBbz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Iks5Uk5pKy9DNUMvcDYyY0hjVkFzU2pZKzkydnZiZkl4d3pBSVpTbm1RR3BLQ1lKRzFJanFZWmpKSWdmSXJPZ0RheW5naEs2a1k0TGM4WlFUTlc0cGdRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MzAsImFkdlNlY3JldEtleSI6InU4TFlzQURkQlBBVVNlK2xLNGV5Tzh4N1dYQXlWMyt6dDRtWGxTVlRwajg9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbeyJrZXkiOnsicmVtb3RlSmlkIjoiMjU2NzQzMzkxNTY2QHMud2hhdHNhcHAubmV0IiwiZnJvbU1lIjp0cnVlLCJpZCI6IkExQjNFM0M3ODFEODU4NEM5QUYyN0E2OTZCRjlDOEFEIn0sIm1lc3NhZ2VUaW1lc3RhbXAiOjE3MzA0Mzc4NzJ9XSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6InZRQWhGcFlmVE1PbXBPdzAtM3pib1EiLCJwaG9uZUlkIjoiOThiYmYzMjktNzc0NC00NDUwLWFiMzAtZThmN2Y0MmMxZWQzIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ii9Xd0dQZHI0ZTJWZDF0KzQyckg5ckZZY2NQcz0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJxMEFxNVptNUZyK3FtMHlBL2dOd014SjhmV3c9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiVEQ5WFFRVzQiLCJtZSI6eyJpZCI6IjI1Njc0MzM5MTU2Njo2NkBzLndoYXRzYXBwLm5ldCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDTmkzdnJzRUVON0ZrYmtHR0FFZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiTjlUVmJIL0QwVk44T0QrMERuR2VFTUNML0Y3TGtTdmJhTUdzeXluc1FuUT0iLCJhY2NvdW50U2lnbmF0dXJlIjoidkd0cHlGUkxiYWNqeE9QSzE1OENKZmZyZWRHalM4QzZOYURNdGx6KzdxY1JDcC93N1hDYUNkMFdRdCtJRHFZQkVsVTc4K2VzQ2V3WUVTNWhaVEN4QkE9PSIsImRldmljZVNpZ25hdHVyZSI6IldyZXlLOHlaYjJTRWdKQi9OSDJJUFRRTVoxNlprMlJRRWlQVm42eW9OYytZRXB2cWZlWk8waGkyNWQrN2grNmdZcEwyazFLeExkc08rTnFhanRmOGpBPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjU2NzQzMzkxNTY2OjY2QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlRmVTFXeC93OUZUZkRnL3RBNXhuaERBaS94ZXk1RXIyMmpCck1zcDdFSjAifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MzA0Mzc4NjcsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBTkw2In0=",
       "required": true
     },
     "OWNER_NAME": {
       "desc": "Your Name",
       "required": false,
-      "value": "keithkeizzah"
+      "value": "google"
     },
     "NUMERO_OWNER": {
       "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
-      "required": false,
-      "value": "254796299159"
+      "required": true,
+      "value": "256743391566"
     },
     "WARN_COUNT": {
       "desc": "this is the limit of warn for warning commandes",
@@ -99,7 +99,7 @@
     },
     "ANTI_DELETE_MESSAGE": {
       "description": "if you want to enable anti delete message put yes else put no",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "ANTICALL": {
